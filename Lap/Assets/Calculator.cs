@@ -117,8 +117,9 @@ public class Calculator : MonoBehaviour
             Debug.LogError("0으로 나눌 수 없다");
             return 0;
         }
-        
-        return a / b;
+
+        else
+            return a / b;
     }
     
     
